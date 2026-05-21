@@ -1,0 +1,15 @@
+.S7-container{
+    background-image: none;
+    background-color: transparent;
+    height: auto;
+}
+.S4-text h1{
+    color:  rgb(0, 126, 255);
+    font-size: 50px
+}
+.S7-column1-card2 h1{
+    color: black;
+}
+.S7-column1-card2 p{
+    color: gray;
+}

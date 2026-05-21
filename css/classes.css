@@ -1,0 +1,94 @@
+.c-s1-container{
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+}
+.c-s1-content{
+    width: 1120px;
+    transition: 0.5s;
+}
+
+.buttons{
+    background-color: #fea633;
+    padding: 15px 80px 15px 45px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons button{
+    background-color: transparent;
+    border-style: none;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size:19px;
+    font-weight: 500;
+}
+.active{
+    color: rgb(0, 126, 255) !important;
+    background-color: #fea633;
+}
+
+#main{
+    margin-top: 60px;
+}
+#all,
+#toddler,
+#preschool,
+#kindergarten,
+#pre-k-program,
+#before{
+    margin-top: 200px;
+    display: none;
+    transition: 0.2s ease-in-out;
+}
+
+.show{
+    display: flex !important;
+    margin-top: 60px !important;
+}
+
+@media only screen and (max-width: 992px){
+    
+    .buttons{
+    background-color: #fea633;
+    padding: 15px 80px 15px 45px;
+    border-radius: 25px;
+    display: flex;
+    width: 750px;
+    justify-content: space-between;
+    justify-self: center;
+}
+.buttons button{
+    font-size: 17px;
+}
+.margin{
+    margin-top: 40px;
+}
+}
+
+@media only screen and (max-width: 767px){
+    .buttons{
+    background-color: transparent;
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+    gap: 30px;
+    justify-self: center;
+    row-gap: 15px;
+
+}
+.margin2{
+    margin-top: 40px;
+}
+.buttons button{
+   text-align: start;
+   background-color: #fea633;
+   padding: 10px 20px;
+   border-radius: 15px;
+   width: 100%;
+}
+.c-s1-content{
+    width: 100%;
+}
+}
+

@@ -1,0 +1,333 @@
+.p-S1-container{
+    background-color: rgb(248, 244, 238);
+    padding: 60px 0 120px 0;
+    margin: 70px 0 0px 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.c1-c2-bg{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.c1-c2-bg:hover{
+    margin-top: -10px;
+}
+
+.p-S1-column1-img img{
+    width: 100%;
+    border-radius: 20px;
+}
+.p-S1-content{
+    width: 1100px;
+}
+.S2-column1{
+    box-shadow: none;
+    border-radius: 0px;
+    padding: 10px 10px;
+}
+.S2-column1 h2{
+    transition: 0.3s;
+}
+.S2-column1:hover h2{
+    color: #fea633;
+}
+.S2-column1 button{
+    background-color: transparent;
+    transition: 0.2s;
+}
+
+.toddler{
+    color: #337ab7;
+}
+.preschool{
+    color: rgb(205, 80, 205);
+}
+.kindergarten{
+    color: rgb(255, 75, 75);
+}
+.pre-k-program{
+    color: #fea633;
+}
+.before{
+    color: rgb(99, 195, 3);
+}
+
+/* Program Section 2 Start */
+.p-s2-container{
+    padding: 0 0 60px 0 ;
+}
+.p-s2-bg{
+    background-image: url('../Programs/bg1.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 50px 0 30px 0 ;
+}
+.p-s2-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.p-s2-content h1{
+    font-family: 'Patrick Hand',cursive;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.p-s2-content button{
+    background-color:transparent;
+    width: 180px;
+    border-color: #fea633;
+    border-style: groove;
+    border-width: 1.5px;
+    height: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    margin: 10px 0px;
+    transition: 0.3s;
+}
+.p-s2-content button:hover{
+    background-color: #fea633;
+    color: #337ab7;
+}
+/* Program Section 2 End */
+
+/* Program Section 3 Start */
+.p-s3-container{
+    padding: 0 0 60px 0;
+    display: flex;
+    justify-content: center;
+}
+.p-s3-content{
+    width: 1110px;
+}
+.p-s3-column1-h1{
+    color:  rgb(0, 126, 255);
+    font-family: 'Patrick Hand',cursive;
+    font-size: 45px;
+    font-weight: 400;
+    padding: 0 0 40px 0;
+}
+.swiper-pagination-bullet{
+    color: #337ab7;
+    width: 10px;
+    height: 10px;
+}
+.p-s3-column2{
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.p-s3-column2:hover .p-s3-column2-blue{
+    bottom: 0;
+    border-radius: 30px;
+    padding: 20px 30px 10px 30px;
+}
+.p-s3-column2 img{
+    border-radius: 30px;
+    width: 100%;
+}
+.p-s3-column2-blue{
+    position: absolute;
+    bottom: -75%;
+    background-color: rgba(0, 128, 255, 0.638);
+    width: 100%;
+    height: 100%;
+    padding: 0px 30px 10px 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transition: 0.3s ease-in-out;
+}
+.icon-text{
+    display: flex;
+    gap: 20px;
+}
+.icon-text i{
+    color: #fea633;
+    font-size: 40px;
+}
+.icon-text p{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 12px 0;
+}
+.c2-text p{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.c2-text h6{
+    font-family: 'Quicksand', sans-serif;
+    color: #fea633;
+    font-size: 18px;
+    transition: 0.2s;
+}
+.c2-text h6:hover{
+    color: white;
+}
+/* Program Section 3 End */
+
+/* Program Section 4 Start */
+.p-s4-container{
+    padding: 0 0 60px 0;
+}
+.p-s4-slider1 img{
+    width: 100%;
+}
+
+/* Program Section 4 End */
+
+@media only screen and (max-width: 1200px){
+
+
+.p-s3-column2 img{
+    height: 250px;
+}
+    .p-S1-content,
+    .p-s3-content{
+     width: 950px;
+}
+}
+@media only screen and (max-width: 992px){
+    .p-s3-content{
+        width: 740px;
+    }
+    .S8-slider1-text p{
+        font-size: 14.5px;
+    }
+    .p-s3-column2{
+        margin: 30px 0;
+    }
+    .icon-text{
+
+        padding: 0;
+        margin: 0;
+    }
+    .c2-text p{
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+         margin-top:-4px;
+    }
+    .c2-text h6{
+        font-size: 15px;
+        margin: 5px 0;
+    }
+
+    .p-s3-column2 img{
+    height: 240px;
+}
+    .p-S1-content{
+     width: 750px;
+}
+}
+
+@media only screen and (max-width: 767px){
+      .p-s3-content{
+        width: 95%;
+    }
+    .p-S1-content{
+     width: 520px;
+}
+.p-s3-column2{
+    width: 400px;
+    justify-self: center;
+}
+.p-s3-column2 img{
+    height: 300px;
+}
+.p-s3-column2-blue{
+    bottom: -80%;
+    
+}
+.c2-text p{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.c2-text h6{
+    font-size: 20px;
+    margin: 20px 0;
+}
+}
+
+@media only screen and (max-width: 576px){
+    .p-s3-column2{
+    width: 90%;
+}
+    .p-s3-column2 img{
+        
+        height: 65vw;
+     }
+    
+.p-s3-column2-blue{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: start;
+    padding: 0px 0;
+}
+.p-s3-column2:hover .p-s3-column2-blue{
+    justify-content: center;
+    padding: 20px 10px;
+}
+
+.icon-text i{
+    font-size: 9vw;
+}
+.icon-text p{
+    font-size: 5vw;
+}
+.c2-text p,
+.c2-text h6{
+    font-size: 3.5vw;
+    line-height: 30px;
+    padding: 0;
+    margin: 5px 0;
+}
+    .p-S1-content{
+     width: 90%;
+}
+.p-s3-column1-h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+}
+
+@media only screen and (max-width: 425px){
+    .S8-slider1 img{
+       width: 70px;
+       height: 70px;
+    }
+    .S8-slider1-text h1{
+        font-size: 20px;
+    }
+    .S8-slider1-text p{
+        font-size: 14px;
+    }
+    .c2-text p{
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+     .c2-text p{
+        line-height: 20px;
+    }
+}
