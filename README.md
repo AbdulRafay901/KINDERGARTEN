@@ -39,33 +39,34 @@ Blue	#007EFF
 Orange	#FEA633
 White	#FFFFFF
 
-📂 Project Structure
-Kindergarten/
+## 📂 Project Structure
+
+```
+KINDERGARTEN/
 │
+├── About-images/
+├── contact-images/
 ├── css/
-├── js/
+├── gallery-images/
 ├── images/
-├── assets/
+├── news-images/
+├── Programs/
 │
-├── index.html
 ├── about.html
 ├── classes.html
-├── gallery.html
-├── teachers.html
-├── events.html
 ├── contact.html
-├── blog.html
+├── event.html
+├── gallery.html
+├── gallery.js
+├── index.html
+├── news.html
+├── program.html
+├── script.js
+├── snake.js
+├── snake.min.js
 └── README.md
+```
 
-📄 Pages Included
-Home Page
-About Page
-Classes Page
-Gallery Page
-Teachers Page
-Events Page
-Blog Page
-Contact Page
 
 🚀 Getting Started
 
